@@ -1,3 +1,6 @@
 {"message":"Cannot destructure property 'folder_name' of 'req.body' as it is undefined.","level":"error"}
 {"message":"Cannot destructure property 'folder_name' of 'req.body' as it is undefined.","level":"error"}
 {"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
