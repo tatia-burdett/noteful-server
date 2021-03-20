@@ -80,27 +80,6 @@ folderRouter
       })
       .catch(next)
   })
-  .patch(jsonParser, (req, res, next) => {
-    const { folder_name } = req.body
-    const folderToUpdate = { folder_name }
 
-    const numberOfValues = Object.value(folderToUpdate).filter(Boolean).length
-    if (numberOfValues === 0)
-      return res.status(400).json({
-        error: {
-          message: `Request body must include a 'folder_name'`
-        }
-      })
-
-    FolderService.updateFolder(
-      req.app.get('db'),  
-      req.params.folder_id,
-      folderToUpdate
-    )
-      .then(numRowsAffected => {
-        res.status(204).end()
-      })
-      .catch(next)
-  })
 
   module.exports = folderRouter

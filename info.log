@@ -27,3 +27,5 @@
 {"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
 {"message":"Object.value is not a function","level":"error"}
 {"message":"Object.value is not a function","level":"error"}
+{"message":"folder is not defined","level":"error"}
+{"message":"notes.mape is not a function","level":"error"}
