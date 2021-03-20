@@ -11,3 +11,17 @@
 {"message":"Assignment to constant variable.","level":"error"}
 {"message":"Assignment to constant variable.","level":"error"}
 {"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"Assignment to constant variable.","level":"error"}
+{"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
+{"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
+{"message":"value is not defined","level":"error"}
+{"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
+{"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
+{"message":"insert into \"noteful_folder\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" of relation \"noteful_folder\" violates not-null constraint","level":"error"}
