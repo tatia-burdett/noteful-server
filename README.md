@@ -1,26 +1,22 @@
-# Express Boilerplate!
+# Noteful Server
 
-This is a boilerplate project used for starting new projects!
+---
 
-## Set up
+## Summary
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+This project is the backend/server for a React-based app I built called [Noteful](https://github.com/tatia-burdett/noteful). This is my first backend project I have worked on. I faced a few challenges along the way, and I have learned a lot. 
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+---
 
-## Scripts
+## Tech Details
 
-Start the application `npm start`
+This project was built using:
+  - Node.js
+  - PostgreSQL
+  - Express
 
-Start nodemon for the application `npm run dev`
+---
 
-Run the tests `npm test`
+## See it live
 
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
+[Live React App](https://noteful-ivory-nu.vercel.app/).
